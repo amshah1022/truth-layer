@@ -1,0 +1,10 @@
+streamlit==1.38.0
+transformers==4.44.2
+torch                      # cpu is fine
+sentencepiece
+wikipedia==1.4.0
+scikit-learn
+numpy
+pandas
+tqdm
+python-dotenv
