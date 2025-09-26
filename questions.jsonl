@@ -1,0 +1,300 @@
+{"id": 1, "domain": "history", "question": "In what year did World War II end?", "gold_answer": "1945"}
+{"id": 2, "domain": "history", "question": "Which treaty formally ended World War I?", "gold_answer": "Treaty of Versailles"}
+{"id": 3, "domain": "history", "question": "In what year was the United States Declaration of Independence signed?", "gold_answer": "1776"}
+{"id": 4, "domain": "history", "question": "Who was the first President of the United States?", "gold_answer": "George Washington"}
+{"id": 5, "domain": "history", "question": "Who was the 16th president of the United States?", "gold_answer": "Abraham Lincoln"}
+{"id": 6, "domain": "history", "question": "Which empire built the Colosseum?", "gold_answer": "Roman Empire"}
+{"id": 7, "domain": "history", "question": "In which city did the Renaissance begin?", "gold_answer": "Florence"}
+{"id": 8, "domain": "history", "question": "Who led the Soviet Union during the Cuban Missile Crisis?", "gold_answer": "Nikita Khrushchev"}
+{"id": 9, "domain": "history", "question": "In what year did the Berlin Wall fall?", "gold_answer": "1989"}
+{"id": 10, "domain": "history", "question": "Who was the British Prime Minister during most of World War II?", "gold_answer": "Winston Churchill"}
+{"id": 11, "domain": "history", "question": "Which document begins with 'We the People'?", "gold_answer": "United States Constitution"}
+{"id": 12, "domain": "history", "question": "Who was known as the Maid of Orléans?", "gold_answer": "Joan of Arc"}
+{"id": 13, "domain": "history", "question": "Which revolution began in 1789?", "gold_answer": "French Revolution"}
+{"id": 14, "domain": "history", "question": "Who was the Egyptian queen who allied with Mark Antony?", "gold_answer": "Cleopatra"}
+{"id": 15, "domain": "history", "question": "Which ancient civilization built Machu Picchu?", "gold_answer": "Inca"}
+{"id": 16, "domain": "history", "question": "What year did the American Civil War begin?", "gold_answer": "1861"}
+{"id": 17, "domain": "history", "question": "Which ocean did Ferdinand Magellan's expedition first cross from the Atlantic?", "gold_answer": "Pacific Ocean"}
+{"id": 18, "domain": "history", "question": "Who was crowned Emperor of France in 1804?", "gold_answer": "Napoleon Bonaparte"}
+{"id": 19, "domain": "history", "question": "Which U.S. purchase doubled the nation's size in 1803?", "gold_answer": "Louisiana Purchase"}
+{"id": 20, "domain": "history", "question": "Who wrote the 95 Theses?", "gold_answer": "Martin Luther"}
+{"id": 21, "domain": "history", "question": "Which city was once called Constantinople?", "gold_answer": "Istanbul"}
+{"id": 22, "domain": "history", "question": "Which empire used samurai as a warrior class?", "gold_answer": "Japan"}
+{"id": 23, "domain": "history", "question": "What year did the Roman Empire fall in the West?", "gold_answer": "476"}
+{"id": 24, "domain": "history", "question": "Which Chinese dynasty built much of the Great Wall?", "gold_answer": "Ming"}
+{"id": 25, "domain": "history", "question": "Who unified Germany in 1871?", "gold_answer": "Otto von Bismarck"}
+{"id": 26, "domain": "history", "question": "Which ship sank in 1912 on its maiden voyage?", "gold_answer": "Titanic"}
+{"id": 27, "domain": "history", "question": "Who led India's nonviolent independence movement?", "gold_answer": "Mahatma Gandhi"}
+{"id": 28, "domain": "history", "question": "What year did the Cuban Revolution succeed?", "gold_answer": "1959"}
+{"id": 29, "domain": "history", "question": "Which war featured the Battle of Hastings?", "gold_answer": "Norman Conquest"}
+{"id": 30, "domain": "history", "question": "Who discovered the sea route to India around the Cape of Good Hope?", "gold_answer": "Vasco da Gama"}
+{"id": 31, "domain": "history", "question": "Which civilization used cuneiform writing?", "gold_answer": "Sumerians"}
+{"id": 32, "domain": "history", "question": "Who was the longest-reigning British monarch before Elizabeth II?", "gold_answer": "Queen Victoria"}
+{"id": 33, "domain": "history", "question": "Which treaty created the European Union in 1993?", "gold_answer": "Maastricht Treaty"}
+{"id": 34, "domain": "history", "question": "In which city did the 1917 revolution topple the Tsar?", "gold_answer": "Petrograd"}
+{"id": 35, "domain": "history", "question": "Which pharaoh built the Great Pyramid at Giza?", "gold_answer": "Khufu"}
+{"id": 36, "domain": "history", "question": "Who commanded the Allied forces on D-Day?", "gold_answer": "Dwight D. Eisenhower"}
+{"id": 37, "domain": "history", "question": "Which empire's capital was Tenochtitlan?", "gold_answer": "Aztec"}
+{"id": 38, "domain": "history", "question": "Who was the first man to reach the South Pole?", "gold_answer": "Roald Amundsen"}
+{"id": 39, "domain": "history", "question": "Which pandemic occurred in 1918–1919?", "gold_answer": "Spanish flu"}
+{"id": 40, "domain": "history", "question": "Which Norwegian explorer tried to reach the North Pole by airship?", "gold_answer": "Roald Amundsen"}
+{"id": 41, "domain": "literature", "question": "Who wrote Pride and Prejudice?", "gold_answer": "Jane Austen"}
+{"id": 42, "domain": "literature", "question": "Who wrote 1984?", "gold_answer": "George Orwell"}
+{"id": 43, "domain": "literature", "question": "Who wrote Moby-Dick?", "gold_answer": "Herman Melville"}
+{"id": 44, "domain": "literature", "question": "Who wrote The Great Gatsby?", "gold_answer": "F. Scott Fitzgerald"}
+{"id": 45, "domain": "literature", "question": "Who wrote To Kill a Mockingbird?", "gold_answer": "Harper Lee"}
+{"id": 46, "domain": "literature", "question": "Who wrote Crime and Punishment?", "gold_answer": "Fyodor Dostoevsky"}
+{"id": 47, "domain": "literature", "question": "Who wrote War and Peace?", "gold_answer": "Leo Tolstoy"}
+{"id": 48, "domain": "literature", "question": "Who wrote The Odyssey?", "gold_answer": "Homer"}
+{"id": 49, "domain": "literature", "question": "Who wrote The Iliad?", "gold_answer": "Homer"}
+{"id": 50, "domain": "literature", "question": "Who wrote The Catcher in the Rye?", "gold_answer": "J. D. Salinger"}
+{"id": 51, "domain": "literature", "question": "Who wrote Brave New World?", "gold_answer": "Aldous Huxley"}
+{"id": 52, "domain": "literature", "question": "Who wrote The Lord of the Rings?", "gold_answer": "J. R. R. Tolkien"}
+{"id": 53, "domain": "literature", "question": "Who wrote The Hobbit?", "gold_answer": "J. R. R. Tolkien"}
+{"id": 54, "domain": "literature", "question": "Who wrote The Picture of Dorian Gray?", "gold_answer": "Oscar Wilde"}
+{"id": 55, "domain": "literature", "question": "Who wrote The Divine Comedy?", "gold_answer": "Dante Alighieri"}
+{"id": 56, "domain": "literature", "question": "Who wrote Don Quixote?", "gold_answer": "Miguel de Cervantes"}
+{"id": 57, "domain": "literature", "question": "Who wrote The Brothers Karamazov?", "gold_answer": "Fyodor Dostoevsky"}
+{"id": 58, "domain": "literature", "question": "Who wrote One Hundred Years of Solitude?", "gold_answer": "Gabriel García Márquez"}
+{"id": 59, "domain": "literature", "question": "Who wrote The Sound and the Fury?", "gold_answer": "William Faulkner"}
+{"id": 60, "domain": "literature", "question": "Who wrote Beloved?", "gold_answer": "Toni Morrison"}
+{"id": 61, "domain": "literature", "question": "Who wrote The Metamorphosis?", "gold_answer": "Franz Kafka"}
+{"id": 62, "domain": "literature", "question": "Who wrote The Stranger?", "gold_answer": "Albert Camus"}
+{"id": 63, "domain": "literature", "question": "Who wrote The Name of the Rose?", "gold_answer": "Umberto Eco"}
+{"id": 64, "domain": "literature", "question": "Who wrote The Trial?", "gold_answer": "Franz Kafka"}
+{"id": 65, "domain": "literature", "question": "Who wrote Jane Eyre?", "gold_answer": "Charlotte Brontë"}
+{"id": 66, "domain": "literature", "question": "Who wrote Wuthering Heights?", "gold_answer": "Emily Brontë"}
+{"id": 67, "domain": "literature", "question": "Who wrote The Scarlet Letter?", "gold_answer": "Nathaniel Hawthorne"}
+{"id": 68, "domain": "literature", "question": "Who wrote Great Expectations?", "gold_answer": "Charles Dickens"}
+{"id": 69, "domain": "literature", "question": "Who wrote David Copperfield?", "gold_answer": "Charles Dickens"}
+{"id": 70, "domain": "literature", "question": "Who wrote A Tale of Two Cities?", "gold_answer": "Charles Dickens"}
+{"id": 71, "domain": "literature", "question": "Who wrote The Grapes of Wrath?", "gold_answer": "John Steinbeck"}
+{"id": 72, "domain": "literature", "question": "Who wrote The Old Man and the Sea?", "gold_answer": "Ernest Hemingway"}
+{"id": 73, "domain": "literature", "question": "Who wrote Lolita?", "gold_answer": "Vladimir Nabokov"}
+{"id": 74, "domain": "literature", "question": "Who wrote The Kite Runner?", "gold_answer": "Khaled Hosseini"}
+{"id": 75, "domain": "literature", "question": "Who wrote The Alchemist?", "gold_answer": "Paulo Coelho"}
+{"id": 76, "domain": "literature", "question": "Who wrote The Handmaid's Tale?", "gold_answer": "Margaret Atwood"}
+{"id": 77, "domain": "literature", "question": "Who wrote Invisible Man?", "gold_answer": "Ralph Ellison"}
+{"id": 78, "domain": "literature", "question": "Who wrote Slaughterhouse-Five?", "gold_answer": "Kurt Vonnegut"}
+{"id": 79, "domain": "literature", "question": "Who wrote Les Misérables?", "gold_answer": "Victor Hugo"}
+{"id": 80, "domain": "literature", "question": "Who wrote The Count of Monte Cristo?", "gold_answer": "Alexandre Dumas"}
+{"id": 81, "domain": "science", "question": "What is the chemical symbol for gold?", "gold_answer": "Au"}
+{"id": 82, "domain": "science", "question": "What is the chemical formula of water?", "gold_answer": "H2O"}
+{"id": 83, "domain": "science", "question": "Which planet is the largest in the Solar System?", "gold_answer": "Jupiter"}
+{"id": 84, "domain": "science", "question": "Which planet is known for its prominent ring system?", "gold_answer": "Saturn"}
+{"id": 85, "domain": "science", "question": "Which bacterium causes tuberculosis?", "gold_answer": "Mycobacterium tuberculosis"}
+{"id": 86, "domain": "science", "question": "Who discovered penicillin?", "gold_answer": "Alexander Fleming"}
+{"id": 87, "domain": "science", "question": "Which two scientists proposed the double-helix structure of DNA?", "gold_answer": "James Watson and Francis Crick"}
+{"id": 88, "domain": "science", "question": "What molecule does hemoglobin primarily transport?", "gold_answer": "Oxygen"}
+{"id": 89, "domain": "science", "question": "What is the speed of light in vacuum in m/s (to 3 sig figs)?", "gold_answer": "3.00e8"}
+{"id": 90, "domain": "science", "question": "What is the unit of electrical resistance?", "gold_answer": "Ohm"}
+{"id": 91, "domain": "science", "question": "What is the SI base unit of mass?", "gold_answer": "kilogram"}
+{"id": 92, "domain": "science", "question": "What gas do plants primarily take in for photosynthesis?", "gold_answer": "Carbon dioxide"}
+{"id": 93, "domain": "science", "question": "What gas do plants primarily release during photosynthesis?", "gold_answer": "Oxygen"}
+{"id": 94, "domain": "science", "question": "What is the main energy currency of the cell?", "gold_answer": "ATP"}
+{"id": 95, "domain": "science", "question": "What is the powerhouse of the cell?", "gold_answer": "Mitochondrion"}
+{"id": 96, "domain": "science", "question": "Which scientist proposed the theory of relativity?", "gold_answer": "Albert Einstein"}
+{"id": 97, "domain": "science", "question": "What is the most abundant gas in Earth's atmosphere?", "gold_answer": "Nitrogen"}
+{"id": 98, "domain": "science", "question": "What force keeps planets in orbit around the Sun?", "gold_answer": "Gravity"}
+{"id": 99, "domain": "science", "question": "What part of the cell contains genetic material?", "gold_answer": "Nucleus"}
+{"id": 100, "domain": "science", "question": "Which blood type is known as the universal donor?", "gold_answer": "O negative"}
+{"id": 101, "domain": "science", "question": "What is the pH of pure water at 25°C?", "gold_answer": "7"}
+{"id": 102, "domain": "science", "question": "What is the largest organ in the human body?", "gold_answer": "Skin"}
+{"id": 103, "domain": "science", "question": "Which vitamin is produced when skin is exposed to sunlight?", "gold_answer": "Vitamin D"}
+{"id": 104, "domain": "science", "question": "What is the primary component of natural gas?", "gold_answer": "Methane"}
+{"id": 105, "domain": "science", "question": "What is the common name for sodium chloride?", "gold_answer": "Salt"}
+{"id": 106, "domain": "science", "question": "What instrument measures atmospheric pressure?", "gold_answer": "Barometer"}
+{"id": 107, "domain": "science", "question": "What scale is used to measure earthquake magnitude?", "gold_answer": "Richter scale"}
+{"id": 108, "domain": "science", "question": "What phenomenon causes the apparent bending of light in water?", "gold_answer": "Refraction"}
+{"id": 109, "domain": "science", "question": "What is the most common element in the universe?", "gold_answer": "Hydrogen"}
+{"id": 110, "domain": "science", "question": "What is the symbol for iron?", "gold_answer": "Fe"}
+{"id": 111, "domain": "science", "question": "What is the chemical symbol for sodium?", "gold_answer": "Na"}
+{"id": 112, "domain": "science", "question": "What is the chemical symbol for potassium?", "gold_answer": "K"}
+{"id": 113, "domain": "science", "question": "What is the chemical symbol for silver?", "gold_answer": "Ag"}
+{"id": 114, "domain": "science", "question": "What is the chemical symbol for lead?", "gold_answer": "Pb"}
+{"id": 115, "domain": "science", "question": "What is the hardest natural substance?", "gold_answer": "Diamond"}
+{"id": 116, "domain": "science", "question": "What is the process by which plants make food?", "gold_answer": "Photosynthesis"}
+{"id": 117, "domain": "science", "question": "Which organ filters blood in the human body?", "gold_answer": "Kidney"}
+{"id": 118, "domain": "science", "question": "What is the boiling point of water at sea level in °C?", "gold_answer": "100"}
+{"id": 119, "domain": "science", "question": "Which gas is essential for respiration in humans?", "gold_answer": "Oxygen"}
+{"id": 120, "domain": "science", "question": "Which scientist formulated the laws of motion?", "gold_answer": "Isaac Newton"}
+{"id": 121, "domain": "medicine", "question": "Which organ is primarily affected by hepatitis?", "gold_answer": "Liver"}
+{"id": 122, "domain": "medicine", "question": "What is the medical term for high blood pressure?", "gold_answer": "Hypertension"}
+{"id": 123, "domain": "medicine", "question": "What is the medical term for low blood sugar?", "gold_answer": "Hypoglycemia"}
+{"id": 124, "domain": "medicine", "question": "What virus causes COVID-19?", "gold_answer": "SARS-CoV-2"}
+{"id": 125, "domain": "medicine", "question": "Which vaccine type is the Pfizer-BioNTech COVID-19 vaccine?", "gold_answer": "mRNA vaccine"}
+{"id": 126, "domain": "medicine", "question": "Which bacterium causes strep throat most commonly?", "gold_answer": "Streptococcus pyogenes"}
+{"id": 127, "domain": "medicine", "question": "What is the term for surgical removal of the gallbladder?", "gold_answer": "Cholecystectomy"}
+{"id": 128, "domain": "medicine", "question": "What is the term for a heart attack?", "gold_answer": "Myocardial infarction"}
+{"id": 129, "domain": "medicine", "question": "Which vitamin deficiency causes scurvy?", "gold_answer": "Vitamin C"}
+{"id": 130, "domain": "medicine", "question": "Which vitamin deficiency causes rickets?", "gold_answer": "Vitamin D"}
+{"id": 131, "domain": "medicine", "question": "Which hormone regulates blood sugar?", "gold_answer": "Insulin"}
+{"id": 132, "domain": "medicine", "question": "Which gland produces thyroid hormones?", "gold_answer": "Thyroid"}
+{"id": 133, "domain": "medicine", "question": "What is the normal human body temperature in °C (approx)?", "gold_answer": "37"}
+{"id": 134, "domain": "medicine", "question": "What is the common name for varicella?", "gold_answer": "Chickenpox"}
+{"id": 135, "domain": "medicine", "question": "Which pathogen causes tuberculosis?", "gold_answer": "Mycobacterium tuberculosis"}
+{"id": 136, "domain": "medicine", "question": "What is the universal blood recipient type?", "gold_answer": "AB positive"}
+{"id": 137, "domain": "medicine", "question": "Which organ produces bile?", "gold_answer": "Liver"}
+{"id": 138, "domain": "medicine", "question": "What is the medical term for nosebleed?", "gold_answer": "Epistaxis"}
+{"id": 139, "domain": "medicine", "question": "What is the medical term for stroke?", "gold_answer": "Cerebrovascular accident"}
+{"id": 140, "domain": "medicine", "question": "Which imaging modality uses magnetic fields?", "gold_answer": "MRI"}
+{"id": 141, "domain": "medicine", "question": "What is the term for removal of the appendix?", "gold_answer": "Appendectomy"}
+{"id": 142, "domain": "medicine", "question": "Which vaccine prevents measles?", "gold_answer": "MMR"}
+{"id": 143, "domain": "medicine", "question": "What is the condition of low red blood cells?", "gold_answer": "Anemia"}
+{"id": 144, "domain": "medicine", "question": "Which organ is affected by nephritis?", "gold_answer": "Kidney"}
+{"id": 145, "domain": "medicine", "question": "Which test measures average blood glucose over ~3 months?", "gold_answer": "HbA1c"}
+{"id": 146, "domain": "medicine", "question": "What is the medical term for pink eye?", "gold_answer": "Conjunctivitis"}
+{"id": 147, "domain": "medicine", "question": "Which disease is caused by Plasmodium parasites?", "gold_answer": "Malaria"}
+{"id": 148, "domain": "medicine", "question": "Which condition is treated with insulin?", "gold_answer": "Diabetes mellitus"}
+{"id": 149, "domain": "medicine", "question": "What is the main cell type of the nervous system?", "gold_answer": "Neuron"}
+{"id": 150, "domain": "medicine", "question": "What is the term for difficulty breathing?", "gold_answer": "Dyspnea"}
+{"id": 151, "domain": "medicine", "question": "Which vitamin prevents neural tube defects?", "gold_answer": "Folic acid"}
+{"id": 152, "domain": "medicine", "question": "Which bacterium causes Lyme disease?", "gold_answer": "Borrelia burgdorferi"}
+{"id": 153, "domain": "medicine", "question": "Which virus causes AIDS?", "gold_answer": "HIV"}
+{"id": 154, "domain": "medicine", "question": "Which organ is transplanted in a corneal transplant?", "gold_answer": "Cornea"}
+{"id": 155, "domain": "medicine", "question": "What is the first-line treatment for anaphylaxis?", "gold_answer": "Epinephrine"}
+{"id": 156, "domain": "medicine", "question": "Which test records electrical activity of the heart?", "gold_answer": "ECG"}
+{"id": 157, "domain": "medicine", "question": "Which bone is also known as the collarbone?", "gold_answer": "Clavicle"}
+{"id": 158, "domain": "medicine", "question": "What is the largest artery in the human body?", "gold_answer": "Aorta"}
+{"id": 159, "domain": "medicine", "question": "Which organ is affected by hepatitis C?", "gold_answer": "Liver"}
+{"id": 160, "domain": "medicine", "question": "What is the term for high cholesterol in the blood?", "gold_answer": "Hypercholesterolemia"}
+{"id": 161, "domain": "cs", "question": "Who created the Python programming language?", "gold_answer": "Guido van Rossum"}
+{"id": 162, "domain": "cs", "question": "Who created the C programming language?", "gold_answer": "Dennis Ritchie"}
+{"id": 163, "domain": "cs", "question": "Who created the Java programming language?", "gold_answer": "James Gosling"}
+{"id": 164, "domain": "cs", "question": "Who created the Linux kernel?", "gold_answer": "Linus Torvalds"}
+{"id": 165, "domain": "cs", "question": "Which company created the Go programming language?", "gold_answer": "Google"}
+{"id": 166, "domain": "cs", "question": "Which company created the Rust programming language?", "gold_answer": "Mozilla"}
+{"id": 167, "domain": "cs", "question": "What does SQL stand for?", "gold_answer": "Structured Query Language"}
+{"id": 168, "domain": "cs", "question": "What does HTTP stand for?", "gold_answer": "Hypertext Transfer Protocol"}
+{"id": 169, "domain": "cs", "question": "What does DNS stand for?", "gold_answer": "Domain Name System"}
+{"id": 170, "domain": "cs", "question": "What does IP stand for in networking?", "gold_answer": "Internet Protocol"}
+{"id": 171, "domain": "cs", "question": "What is the time complexity of binary search?", "gold_answer": "O(log n)"}
+{"id": 172, "domain": "cs", "question": "Which data structure uses FIFO?", "gold_answer": "Queue"}
+{"id": 173, "domain": "cs", "question": "Which data structure uses LIFO?", "gold_answer": "Stack"}
+{"id": 174, "domain": "cs", "question": "What does GPU stand for?", "gold_answer": "Graphics Processing Unit"}
+{"id": 175, "domain": "cs", "question": "What is the primary version control system used on GitHub?", "gold_answer": "Git"}
+{"id": 176, "domain": "cs", "question": "What does API stand for?", "gold_answer": "Application Programming Interface"}
+{"id": 177, "domain": "cs", "question": "What does RAM stand for?", "gold_answer": "Random Access Memory"}
+{"id": 178, "domain": "cs", "question": "What does CPU stand for?", "gold_answer": "Central Processing Unit"}
+{"id": 179, "domain": "cs", "question": "Which company developed the TensorFlow library?", "gold_answer": "Google"}
+{"id": 180, "domain": "cs", "question": "Which company developed the PyTorch library?", "gold_answer": "Facebook"}
+{"id": 181, "domain": "cs", "question": "What is the default port for HTTP?", "gold_answer": "80"}
+{"id": 182, "domain": "cs", "question": "What is the default port for HTTPS?", "gold_answer": "443"}
+{"id": 183, "domain": "cs", "question": "What is the default port for SSH?", "gold_answer": "22"}
+{"id": 184, "domain": "cs", "question": "What does JSON stand for?", "gold_answer": "JavaScript Object Notation"}
+{"id": 185, "domain": "cs", "question": "What is the standard complexity to sort with mergesort?", "gold_answer": "O(n log n)"}
+{"id": 186, "domain": "cs", "question": "Who coined the term 'algorithm'?", "gold_answer": "Al-Khwarizmi"}
+{"id": 187, "domain": "cs", "question": "What does URL stand for?", "gold_answer": "Uniform Resource Locator"}
+{"id": 188, "domain": "cs", "question": "Which company created the TypeScript language?", "gold_answer": "Microsoft"}
+{"id": 189, "domain": "cs", "question": "What does IDE stand for?", "gold_answer": "Integrated Development Environment"}
+{"id": 190, "domain": "cs", "question": "What is the worst-case time for quicksort?", "gold_answer": "O(n^2)"}
+{"id": 191, "domain": "cs", "question": "What is the best-case time for quicksort?", "gold_answer": "O(n log n)"}
+{"id": 192, "domain": "cs", "question": "What does SQL 'JOIN' combine?", "gold_answer": "Tables"}
+{"id": 193, "domain": "cs", "question": "What is the binary representation of decimal 8?", "gold_answer": "1000"}
+{"id": 194, "domain": "cs", "question": "Which company created the Swift language?", "gold_answer": "Apple"}
+{"id": 195, "domain": "cs", "question": "What is the primary protocol for email transfer?", "gold_answer": "SMTP"}
+{"id": 196, "domain": "cs", "question": "What does HTML stand for?", "gold_answer": "HyperText Markup Language"}
+{"id": 197, "domain": "cs", "question": "What is the base of the hexadecimal system?", "gold_answer": "16"}
+{"id": 198, "domain": "cs", "question": "What is the base of the binary system?", "gold_answer": "2"}
+{"id": 199, "domain": "cs", "question": "What is the complexity of accessing an array element?", "gold_answer": "O(1)"}
+{"id": 200, "domain": "cs", "question": "What is the complexity of a binary heap insert?", "gold_answer": "O(log n)"}
+{"id": 201, "domain": "civics", "question": "How many branches of the U.S. federal government are there?", "gold_answer": "3"}
+{"id": 202, "domain": "civics", "question": "Which branch interprets laws?", "gold_answer": "Judicial"}
+{"id": 203, "domain": "civics", "question": "Which branch makes laws?", "gold_answer": "Legislative"}
+{"id": 204, "domain": "civics", "question": "Which branch enforces laws?", "gold_answer": "Executive"}
+{"id": 205, "domain": "civics", "question": "What are the first ten amendments to the U.S. Constitution called?", "gold_answer": "Bill of Rights"}
+{"id": 206, "domain": "civics", "question": "How many U.S. Senators are there?", "gold_answer": "100"}
+{"id": 207, "domain": "civics", "question": "How many U.S. Representatives are there?", "gold_answer": "435"}
+{"id": 208, "domain": "civics", "question": "How long is a U.S. Senator's term in years?", "gold_answer": "6"}
+{"id": 209, "domain": "civics", "question": "How long is a U.S. Representative's term in years?", "gold_answer": "2"}
+{"id": 210, "domain": "civics", "question": "How long is a U.S. President's term in years?", "gold_answer": "4"}
+{"id": 211, "domain": "civics", "question": "Which amendment abolished slavery in the U.S.?", "gold_answer": "13th Amendment"}
+{"id": 212, "domain": "civics", "question": "Which amendment guarantees freedom of speech?", "gold_answer": "1st Amendment"}
+{"id": 213, "domain": "civics", "question": "Which amendment grants the right to bear arms?", "gold_answer": "2nd Amendment"}
+{"id": 214, "domain": "civics", "question": "Which amendment protects against unreasonable searches?", "gold_answer": "4th Amendment"}
+{"id": 215, "domain": "civics", "question": "Which amendment guarantees a fair trial?", "gold_answer": "6th Amendment"}
+{"id": 216, "domain": "civics", "question": "What is the supreme law of the land in the U.S.?", "gold_answer": "Constitution"}
+{"id": 217, "domain": "civics", "question": "What is the highest court in the U.S.?", "gold_answer": "Supreme Court"}
+{"id": 218, "domain": "civics", "question": "What do we call changes to the Constitution?", "gold_answer": "Amendments"}
+{"id": 219, "domain": "civics", "question": "Who is in line after the Vice President to become President?", "gold_answer": "Speaker of the House"}
+{"id": 220, "domain": "civics", "question": "How many justices are on the U.S. Supreme Court?", "gold_answer": "9"}
+{"id": 221, "domain": "civics", "question": "What do we call the first part of the Constitution?", "gold_answer": "Preamble"}
+{"id": 222, "domain": "civics", "question": "What is the minimum age to serve as U.S. President?", "gold_answer": "35"}
+{"id": 223, "domain": "civics", "question": "What is the minimum age to serve in the U.S. House?", "gold_answer": "25"}
+{"id": 224, "domain": "civics", "question": "What is the minimum age to serve in the U.S. Senate?", "gold_answer": "30"}
+{"id": 225, "domain": "civics", "question": "What is the system that divides power between federal and state governments?", "gold_answer": "Federalism"}
+{"id": 226, "domain": "civics", "question": "What system allows each branch to limit the others?", "gold_answer": "Checks and balances"}
+{"id": 227, "domain": "civics", "question": "What is the collective name for the President's department heads?", "gold_answer": "Cabinet"}
+{"id": 228, "domain": "civics", "question": "What document declares U.S. independence?", "gold_answer": "Declaration of Independence"}
+{"id": 229, "domain": "civics", "question": "What do we call a change to state constitutions approved by voters?", "gold_answer": "Referendum"}
+{"id": 230, "domain": "civics", "question": "What do we call the right to vote?", "gold_answer": "Suffrage"}
+{"id": 231, "domain": "civics", "question": "What do we call the U.S. national legislature?", "gold_answer": "Congress"}
+{"id": 232, "domain": "civics", "question": "What do we call state-level lawmaking bodies?", "gold_answer": "Legislatures"}
+{"id": 233, "domain": "civics", "question": "What do we call a direct vote by citizens on a specific proposal?", "gold_answer": "Ballot initiative"}
+{"id": 234, "domain": "civics", "question": "What do we call the first ten amendments collectively?", "gold_answer": "Bill of Rights"}
+{"id": 235, "domain": "civics", "question": "What do we call the power of courts to declare laws unconstitutional?", "gold_answer": "Judicial review"}
+{"id": 236, "domain": "civics", "question": "What do we call the principle that government must follow the law?", "gold_answer": "Rule of law"}
+{"id": 237, "domain": "civics", "question": "What do we call the clause giving Congress power to pass necessary laws?", "gold_answer": "Necessary and Proper Clause"}
+{"id": 238, "domain": "civics", "question": "What do we call the constitutional sharing of power among branches?", "gold_answer": "Separation of powers"}
+{"id": 239, "domain": "civics", "question": "What do we call the first amendments guaranteeing civil liberties?", "gold_answer": "Bill of Rights"}
+{"id": 240, "domain": "civics", "question": "What document outlines the basic framework of U.S. government?", "gold_answer": "Constitution"}
+{"id": 241, "domain": "ambiguous", "question": "Name the writer of Pride and Prejudice.", "gold_answer": "Jane Austen"}
+{"id": 242, "domain": "ambiguous", "question": "Identify the author behind 1984.", "gold_answer": "George Orwell"}
+{"id": 243, "domain": "ambiguous", "question": "State the year the Second World War concluded.", "gold_answer": "1945"}
+{"id": 244, "domain": "ambiguous", "question": "Provide the year America declared independence.", "gold_answer": "1776"}
+{"id": 245, "domain": "ambiguous", "question": "Name the painter responsible for the Mona Lisa.", "gold_answer": "Leonardo da Vinci"}
+{"id": 246, "domain": "ambiguous", "question": "Indicate the element symbol for gold.", "gold_answer": "Au"}
+{"id": 247, "domain": "ambiguous", "question": "Give the molecule formula for water.", "gold_answer": "H2O"}
+{"id": 248, "domain": "ambiguous", "question": "Tell the largest planet in our solar system.", "gold_answer": "Jupiter"}
+{"id": 249, "domain": "ambiguous", "question": "Who penned The Great Gatsby?", "gold_answer": "F. Scott Fitzgerald"}
+{"id": 250, "domain": "ambiguous", "question": "Who is the scientist known for relativity?", "gold_answer": "Albert Einstein"}
+{"id": 251, "domain": "ambiguous", "question": "State the capitalized chemical symbol for sodium.", "gold_answer": "Na"}
+{"id": 252, "domain": "ambiguous", "question": "Name the blood group that can donate to any other.", "gold_answer": "O negative"}
+{"id": 253, "domain": "ambiguous", "question": "Which organ chiefly handles bile production?", "gold_answer": "Liver"}
+{"id": 254, "domain": "ambiguous", "question": "Which instrument is used to gauge air pressure?", "gold_answer": "Barometer"}
+{"id": 255, "domain": "ambiguous", "question": "Which amendment outlaws slavery?", "gold_answer": "13th Amendment"}
+{"id": 256, "domain": "ambiguous", "question": "How many members sit on the U.S. Supreme Court?", "gold_answer": "9"}
+{"id": 257, "domain": "ambiguous", "question": "The person first to step on the Moon?", "gold_answer": "Neil Armstrong"}
+{"id": 258, "domain": "ambiguous", "question": "Author of Moby-Dick?", "gold_answer": "Herman Melville"}
+{"id": 259, "domain": "ambiguous", "question": "Name the mathematician behind the laws of motion.", "gold_answer": "Isaac Newton"}
+{"id": 260, "domain": "ambiguous", "question": "Which ocean did Magellan reach after passing South America?", "gold_answer": "Pacific Ocean"}
+{"id": 261, "domain": "multihop", "question": "Who wrote the novel whose 2005 film adaptation starred Keira Knightley as Elizabeth Bennet?", "gold_answer": "Jane Austen"}
+{"id": 262, "domain": "multihop", "question": "Which scientist discovered penicillin and shares a surname with a famous Scottish surname?", "gold_answer": "Alexander Fleming"}
+{"id": 263, "domain": "multihop", "question": "Which planet with the Great Red Spot is the Solar System's largest?", "gold_answer": "Jupiter"}
+{"id": 264, "domain": "multihop", "question": "Which war ended with the 1919 treaty signed at the Palace of Versailles?", "gold_answer": "World War I"}
+{"id": 265, "domain": "multihop", "question": "Which emperor crowned in 1804 led France and was defeated at Waterloo?", "gold_answer": "Napoleon Bonaparte"}
+{"id": 266, "domain": "multihop", "question": "Which U.S. document starting with 'We the People' is the supreme law of the land?", "gold_answer": "United States Constitution"}
+{"id": 267, "domain": "multihop", "question": "Which painter of the Mona Lisa was also an inventor and engineer?", "gold_answer": "Leonardo da Vinci"}
+{"id": 268, "domain": "multihop", "question": "Which duo proposed DNA's double helix and worked at Cambridge?", "gold_answer": "James Watson and Francis Crick"}
+{"id": 269, "domain": "multihop", "question": "Which element with symbol Au is known as gold?", "gold_answer": "Gold"}
+{"id": 270, "domain": "multihop", "question": "Which ocean crossed by Magellan is named for its calmness?", "gold_answer": "Pacific Ocean"}
+{"id": 271, "domain": "multihop", "question": "Which year saw the American colonies declare independence?", "gold_answer": "1776"}
+{"id": 272, "domain": "multihop", "question": "Which leader commanded Allied forces on D-Day and later became U.S. President?", "gold_answer": "Dwight D. Eisenhower"}
+{"id": 273, "domain": "multihop", "question": "Which vaccine platform used by Pfizer-BioNTech encodes spike protein?", "gold_answer": "mRNA vaccine"}
+{"id": 274, "domain": "multihop", "question": "Which novelist created Winston Smith and also wrote Animal Farm?", "gold_answer": "George Orwell"}
+{"id": 275, "domain": "multihop", "question": "Which city formerly known as Constantinople spans Europe and Asia?", "gold_answer": "Istanbul"}
+{"id": 276, "domain": "multihop", "question": "Which disease is caused by Mycobacterium tuberculosis?", "gold_answer": "Tuberculosis"}
+{"id": 277, "domain": "multihop", "question": "Which lawmaking body of the U.S. consists of the Senate and House?", "gold_answer": "Congress"}
+{"id": 278, "domain": "multihop", "question": "Which explorer first reached the South Pole?", "gold_answer": "Roald Amundsen"}
+{"id": 279, "domain": "multihop", "question": "Which mineral form of carbon is the hardest natural substance?", "gold_answer": "Diamond"}
+{"id": 280, "domain": "multihop", "question": "Which scientist formulated the laws of motion?", "gold_answer": "Isaac Newton"}
+{"id": 281, "domain": "confusion", "question": "Who wrote Brave New World (not 1984)?", "gold_answer": "Aldous Huxley"}
+{"id": 282, "domain": "confusion", "question": "Who wrote 1984 (not Brave New World)?", "gold_answer": "George Orwell"}
+{"id": 283, "domain": "confusion", "question": "Who painted the Mona Lisa (not The Last Supper's painter only)?", "gold_answer": "Leonardo da Vinci"}
+{"id": 284, "domain": "confusion", "question": "Which planet is known for rings (not Jupiter)?", "gold_answer": "Saturn"}
+{"id": 285, "domain": "confusion", "question": "Which scientist discovered penicillin (not Pasteur)?", "gold_answer": "Alexander Fleming"}
+{"id": 286, "domain": "confusion", "question": "Which year did WWII end (not 1918)?", "gold_answer": "1945"}
+{"id": 287, "domain": "confusion", "question": "Which treaty ended WWI (not the Treaty of Paris 1783)?", "gold_answer": "Treaty of Versailles"}
+{"id": 288, "domain": "confusion", "question": "Who proposed relativity (not Newton)?", "gold_answer": "Albert Einstein"}
+{"id": 289, "domain": "confusion", "question": "Which element symbol is Au (not Ag)?", "gold_answer": "Gold"}
+{"id": 290, "domain": "confusion", "question": "Which gas do plants release (not carbon dioxide)?", "gold_answer": "Oxygen"}
+{"id": 291, "domain": "confusion", "question": "Which organ is affected by hepatitis (not kidney)?", "gold_answer": "Liver"}
+{"id": 292, "domain": "confusion", "question": "Which vaccine type is Pfizer-BioNTech (not viral vector)?", "gold_answer": "mRNA vaccine"}
+{"id": 293, "domain": "confusion", "question": "Which capital is associated with the Renaissance origin (not Rome)?", "gold_answer": "Florence"}
+{"id": 294, "domain": "confusion", "question": "Who authored Moby-Dick (not Mark Twain)?", "gold_answer": "Herman Melville"}
+{"id": 295, "domain": "confusion", "question": "Who wrote Pride and Prejudice (not Charlotte Brontë)?", "gold_answer": "Jane Austen"}
+{"id": 296, "domain": "confusion", "question": "Who discovered DNA structure with Crick (not Rosalind Franklin alone)?", "gold_answer": "James Watson"}
+{"id": 297, "domain": "confusion", "question": "Which U.S. branch interprets laws (not legislative)?", "gold_answer": "Judicial"}
+{"id": 298, "domain": "confusion", "question": "Which blood type donates to all (not AB positive)?", "gold_answer": "O negative"}
+{"id": 299, "domain": "confusion", "question": "Which document starts with 'We the People' (not Declaration)?", "gold_answer": "United States Constitution"}
+{"id": 300, "domain": "confusion", "question": "Which planet is the largest (not Saturn)?", "gold_answer": "Jupiter"}
