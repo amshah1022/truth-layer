@@ -1,11 +1,17 @@
-streamlit==1.38.0
+streamlit==1.32.0
 protobuf==3.20.3
-transformers==4.44.2
-torch                      # cpu is fine
+transformers>=4.44.0
+torch>=2.1.0
 sentencepiece
 wikipedia==1.4.0
 scikit-learn
 numpy
 pandas
 tqdm
+accelerate>=0.33.0
+safetensors>=0.4.2
 python-dotenv
+pandas 
+scikit-learn
+krippendorff
+

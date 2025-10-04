@@ -1,0 +1,2 @@
+model,n,acc,acc_CI95,supported%,supported_CI95,unverifiable%,unverifiable_CI95,contradicted%,contradicted_CI95
+microsoft/Phi-3-mini-4k-instruct,300,0.79,"[0.740,0.832]",0.477,"[0.421,0.533]",0.21,"[0.168,0.260]",0.313,"[0.263,0.368]"

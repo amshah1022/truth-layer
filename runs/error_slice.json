@@ -1,0 +1,222 @@
+[
+  {
+    "id": 117,
+    "question": "Which organ filters blood in the human body?",
+    "gold": "Kidney",
+    "answers": {
+      "phi3": [
+        "kidneys",
+        "contradicted"
+      ],
+      "llama": [
+        "Kidneys",
+        "supported"
+      ],
+      "gpt": [
+        "kidneys",
+        "supported"
+      ]
+    },
+    "evidence": [
+      "Human body"
+    ]
+  },
+  {
+    "id": 37,
+    "question": "Which empire's capital was Tenochtitlan?",
+    "gold": "Aztec",
+    "answers": {
+      "phi3": [
+        "Aztec Empire",
+        "contradicted"
+      ],
+      "llama": [
+        "Aztec",
+        "supported"
+      ],
+      "gpt": [
+        "Aztec",
+        "supported"
+      ]
+    },
+    "evidence": [
+      "Tenochtitlan"
+    ]
+  },
+  {
+    "id": 23,
+    "question": "What year did the Roman Empire fall in the West?",
+    "gold": "476",
+    "answers": {
+      "phi3": [
+        "476 AD",
+        "unverifiable"
+      ],
+      "llama": [
+        "476",
+        "supported"
+      ],
+      "gpt": [
+        "476",
+        "supported"
+      ]
+    },
+    "evidence": [
+      "Fall of the Western Roman Empire"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Who led the Soviet Union during the Cuban Missile Crisis?",
+    "gold": "Nikita Khrushchev",
+    "answers": {
+      "phi3": [
+        "Nikita Khrushchev",
+        "unverifiable"
+      ],
+      "llama": [
+        "Nikita Khrushchev",
+        "supported"
+      ],
+      "gpt": [
+        "Khrushchev",
+        "supported"
+      ]
+    },
+    "evidence": [
+      "Cuban Missile Crisis"
+    ]
+  },
+  {
+    "id": 114,
+    "question": "What is the chemical symbol for lead?",
+    "gold": "Pb",
+    "answers": {
+      "phi3": [
+        "Pb",
+        "contradicted"
+      ],
+      "llama": [
+        "Pb",
+        "supported"
+      ],
+      "gpt": [
+        "Pb",
+        "supported"
+      ]
+    },
+    "evidence": [
+      "Chemical symbol"
+    ]
+  },
+  {
+    "id": 73,
+    "question": "Who wrote Lolita?",
+    "gold": "Vladimir Nabokov",
+    "answers": {
+      "phi3": [
+        "Vladimir Nabokov",
+        "supported"
+      ],
+      "llama": [
+        "Vladimir Nabokov",
+        "unverifiable"
+      ],
+      "gpt": [
+        "Vladimir Nabokov",
+        "supported"
+      ]
+    },
+    "evidence": [
+      "Lolita"
+    ]
+  },
+  {
+    "id": 36,
+    "question": "Who commanded the Allied forces on D-Day?",
+    "gold": "Dwight D. Eisenhower",
+    "answers": {
+      "phi3": [
+        "General Dwight D. Eisenhower",
+        "unverifiable"
+      ],
+      "llama": [
+        "Dwight D Eisenhower",
+        "contradicted"
+      ],
+      "gpt": [
+        "Dwight D Eisenhower",
+        "contradicted"
+      ]
+    },
+    "evidence": [
+      "Allied Land Command"
+    ]
+  },
+  {
+    "id": 92,
+    "question": "What gas do plants primarily take in for photosynthesis?",
+    "gold": "Carbon dioxide",
+    "answers": {
+      "phi3": [
+        "carbon dioxide",
+        "contradicted"
+      ],
+      "llama": [
+        "Carbon dioxide",
+        "supported"
+      ],
+      "gpt": [
+        "carbon dioxide",
+        "supported"
+      ]
+    },
+    "evidence": [
+      "Photosynthesis"
+    ]
+  },
+  {
+    "id": 26,
+    "question": "Which ship sank in 1912 on its maiden voyage?",
+    "gold": "Titanic",
+    "answers": {
+      "phi3": [
+        "Titanic",
+        "unverifiable"
+      ],
+      "llama": [
+        "Titanic",
+        "supported"
+      ],
+      "gpt": [
+        "Titanic",
+        "supported"
+      ]
+    },
+    "evidence": [
+      "Endurance (1912 ship)"
+    ]
+  },
+  {
+    "id": 72,
+    "question": "Who wrote The Old Man and the Sea?",
+    "gold": "Ernest Hemingway",
+    "answers": {
+      "phi3": [
+        "Ernest Hemingway",
+        "supported"
+      ],
+      "llama": [
+        "Ernest Hemingway",
+        "unverifiable"
+      ],
+      "gpt": [
+        "Ernest Hemingway",
+        "supported"
+      ]
+    },
+    "evidence": [
+      "The Old Man and the Sea"
+    ]
+  }
+]

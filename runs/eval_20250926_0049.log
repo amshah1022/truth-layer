@@ -1,0 +1,79 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:07<00:07,  7.30s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.18s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.80s/it]
+Some parameters are on the meta device because they were offloaded to the disk.
+Device set to use mps
+Device set to use mps
+/Users/alinashah/truth-layer-/.venv/lib/python3.10/site-packages/transformers/pipelines/text_classification.py:111: UserWarning: `return_all_scores` is now deprecated,  if want a similar functionality use `top_k=None` instead of `return_all_scores=True` or `top_k=1` instead of `return_all_scores=False`.
+  warnings.warn(
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[5/300] history | exact=1 loose=1 soft=0 | label=unverifiable
+[10/300] history | exact=1 loose=1 soft=1 | label=supported
+[15/300] history | exact=1 loose=1 soft=1 | label=supported
+[20/300] history | exact=1 loose=1 soft=1 | label=supported
+[25/300] history | exact=1 loose=1 soft=0 | label=unverifiable
+[30/300] history | exact=1 loose=1 soft=1 | label=supported
+[35/300] history | exact=1 loose=1 soft=1 | label=supported
+[40/300] history | exact=1 loose=1 soft=0 | label=unverifiable
+[45/300] literature | exact=1 loose=1 soft=1 | label=supported
+[50/300] literature | exact=0 loose=0 soft=1 | label=supported
+[55/300] literature | exact=1 loose=1 soft=0 | label=contradicted
+[60/300] literature | exact=1 loose=1 soft=0 | label=contradicted
+[65/300] literature | exact=1 loose=1 soft=1 | label=supported
+[70/300] literature | exact=1 loose=1 soft=1 | label=supported
+[75/300] literature | exact=1 loose=1 soft=1 | label=supported
+[80/300] literature | exact=1 loose=1 soft=1 | label=supported
+[85/300] science | exact=1 loose=1 soft=1 | label=supported
+[90/300] science | exact=1 loose=1 soft=0 | label=contradicted
+[95/300] science | exact=0 loose=0 soft=1 | label=supported
+[100/300] science | exact=1 loose=1 soft=0 | label=contradicted
+[105/300] science | exact=0 loose=1 soft=0 | label=contradicted
+[110/300] science | exact=1 loose=1 soft=1 | label=supported
+[115/300] science | exact=1 loose=1 soft=1 | label=supported
+[120/300] science | exact=1 loose=1 soft=1 | label=supported
+[125/300] medicine | exact=1 loose=1 soft=0 | label=contradicted
+[130/300] medicine | exact=0 loose=1 soft=0 | label=unverifiable
+[135/300] medicine | exact=1 loose=1 soft=0 | label=unverifiable
+[140/300] medicine | exact=1 loose=1 soft=1 | label=supported
+[145/300] medicine | exact=1 loose=1 soft=0 | label=unverifiable
+[150/300] medicine | exact=1 loose=1 soft=0 | label=unverifiable
+[155/300] medicine | exact=1 loose=1 soft=0 | label=contradicted
+[160/300] medicine | exact=1 loose=1 soft=1 | label=supported
+[165/300] cs | exact=1 loose=1 soft=0 | label=contradicted
+[170/300] cs | exact=1 loose=1 soft=0 | label=unverifiable
+[175/300] cs | exact=1 loose=1 soft=0 | label=contradicted
+[180/300] cs | exact=0 loose=1 soft=0 | label=contradicted
+[185/300] cs | exact=0 loose=1 soft=0 | label=contradicted
+[190/300] cs | exact=0 loose=0 soft=0 | label=contradicted
+[195/300] cs | exact=1 loose=1 soft=0 | label=contradicted
+[200/300] cs | exact=0 loose=0 soft=0 | label=contradicted
+[205/300] civics | exact=1 loose=1 soft=1 | label=supported
+[210/300] civics | exact=0 loose=0 soft=1 | label=supported
+[215/300] civics | exact=0 loose=0 soft=1 | label=supported
+[220/300] civics | exact=1 loose=1 soft=0 | label=unverifiable
+[225/300] civics | exact=1 loose=1 soft=0 | label=unverifiable
+[230/300] civics | exact=1 loose=1 soft=0 | label=contradicted
+[235/300] civics | exact=1 loose=1 soft=0 | label=contradicted
+[240/300] civics | exact=0 loose=1 soft=0 | label=contradicted
+[245/300] ambiguous | exact=1 loose=1 soft=1 | label=supported
+[250/300] ambiguous | exact=1 loose=1 soft=1 | label=supported
+[255/300] ambiguous | exact=0 loose=0 soft=1 | label=supported
+[260/300] ambiguous | exact=1 loose=1 soft=1 | label=supported
+[265/300] multihop | exact=1 loose=1 soft=1 | label=supported
+[270/300] multihop | exact=1 loose=1 soft=0 | label=unverifiable
+[275/300] multihop | exact=1 loose=1 soft=1 | label=supported
+[280/300] multihop | exact=1 loose=1 soft=1 | label=supported
+[285/300] confusion | exact=1 loose=1 soft=0 | label=unverifiable
+[290/300] confusion | exact=1 loose=1 soft=0 | label=contradicted
+[295/300] confusion | exact=1 loose=1 soft=1 | label=supported
+[300/300] confusion | exact=1 loose=1 soft=1 | label=supported
+
+==== Summary ====
+Model: microsoft/Phi-3-mini-4k-instruct
+Items: 300
+Exact Acc:   0.790
+Loose Acc:   0.893
+Soft Acc:    0.477   (NLI/evidence-supported)
+Support@1: 0.420
+Labels:      {'supported': 143, 'contradicted': 94, 'unverifiable': 63}
+Wrote per-item to: runs/results_20250926_005009_microsoft_Phi-3-mini-4k-instruct.jsonl
+Wrote summary CSV: runs/metrics_20250926_005009_microsoft_Phi-3-mini-4k-instruct.csv

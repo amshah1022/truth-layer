@@ -1,0 +1,2 @@
+model,n,exact_acc,loose_acc,soft_acc(evidence-supported),support@k,label_supported,label_contradicted,label_unverifiable,avg_retrieval_ms,avg_verify_ms
+microsoft/Phi-3-mini-4k-instruct,5,1.000,1.000,0.600,0.600,3,1,1,369,79

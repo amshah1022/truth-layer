@@ -1,0 +1,2 @@
+model,n,exact_acc,loose_acc,soft_acc(evidence-supported),support@k,label_supported,label_contradicted,label_unverifiable,avg_retrieval_ms,avg_verify_ms
+meta-llama/Llama-3.1-8B-Instruct,3,1.000,1.000,1.000,1.000,3,0,0,3462,0

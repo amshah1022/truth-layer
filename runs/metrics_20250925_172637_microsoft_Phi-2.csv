@@ -1,0 +1,2 @@
+ model,n,exact_acc,loose_acc,soft_acc(evidence-supported),support@k,label_supported,label_contradicted,label_unverifiable,avg_retrieval_ms,avg_verify_ms
+microsoft/Phi-2,10,0.000,0.000,0.000,0.600,0,6,4,1300,934

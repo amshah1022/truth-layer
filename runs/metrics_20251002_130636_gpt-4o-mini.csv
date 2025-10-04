@@ -1,0 +1,2 @@
+model,n,exact_acc,loose_acc,soft_acc(evidence-supported),support@k,label_supported,label_contradicted,label_unverifiable,avg_retrieval_ms,avg_verify_ms
+gpt-4o-mini,120,0.908,0.958,0.925,0.933,111,7,2,532,57

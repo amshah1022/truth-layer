@@ -1,0 +1,9 @@
+{
+  "title": "Truth Layer – Detect ➜ Visualize ➜ Mitigate",
+  "model": "llama-3.1-8b-instruct",
+  "retriever": "bm25",
+  "k": 3,
+  "temperature_baseline": 0.7,
+  "temperature_mitigate": 0.2,
+  "n_mitigate": 3
+}

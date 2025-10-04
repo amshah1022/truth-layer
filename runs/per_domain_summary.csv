@@ -1,0 +1,16 @@
+model,domain,n,exact_mean,exact_lo,exact_hi,loose_mean,loose_lo,loose_hi,soft_mean,soft_lo,soft_hi,recall_mean,recall_lo,recall_hi
+microsoft/Phi-3-mini-4k-instruct,history,40,0.775,0.65,0.9,0.775,0.65,0.9,0.425,0.275,0.575,0.4,0.25,0.55
+microsoft/Phi-3-mini-4k-instruct,literature,40,0.9,0.8,0.975,0.9,0.8,0.975,0.875,0.775,0.975,0.875,0.775,0.975
+microsoft/Phi-3-mini-4k-instruct,science,40,0.7,0.55,0.825,0.875,0.75,0.975,0.45,0.3,0.6,0.425,0.275,0.575
+microsoft/Phi-3-mini-4k-instruct,medicine,40,0.5,0.35,0.65,0.85,0.725,0.95,0.45,0.3,0.6,0.4,0.25,0.55
+microsoft/Phi-3-mini-4k-instruct,cs,40,0.75,0.6,0.875,0.9,0.8,0.975,0.175,0.075,0.3,0.175,0.075,0.3
+microsoft/Phi-3-mini-4k-instruct,civics,40,0.425,0.275,0.575,0.475,0.325,0.625,0.4,0.25,0.55,0.225,0.1,0.35
+microsoft/Phi-3-mini-4k-instruct,ambiguous,20,0.85,0.7,1.0,0.95,0.85,1.0,0.5,0.3,0.7,0.4,0.2,0.6
+microsoft/Phi-3-mini-4k-instruct,multihop,20,0.7,0.5,0.9,0.75,0.55,0.9,0.6,0.4,0.8,0.45,0.25,0.65
+microsoft/Phi-3-mini-4k-instruct,confusion,20,0.75,0.55,0.9,0.85,0.7,1.0,0.5,0.3,0.7,0.45,0.25,0.65
+meta-llama/Llama-3.1-8B-Instruct,history,40,0.85,0.725,0.95,0.85,0.725,0.95,0.9,0.8,0.975,0.9,0.8,0.975
+meta-llama/Llama-3.1-8B-Instruct,literature,40,0.85,0.725,0.95,0.85,0.725,0.95,0.875,0.775,0.975,0.9,0.8,0.975
+meta-llama/Llama-3.1-8B-Instruct,science,40,0.85,0.725,0.95,0.875,0.775,0.975,0.9,0.8,0.975,0.9,0.8,0.975
+gpt-4o-mini,history,40,0.9,0.8,0.975,0.9,0.8,0.975,0.875,0.775,0.975,0.9,0.8,0.975
+gpt-4o-mini,literature,40,0.925,0.85,1.0,0.925,0.85,1.0,0.95,0.875,1.0,0.975,0.925,1.0
+gpt-4o-mini,science,40,0.725,0.575,0.85,0.9,0.8,0.975,0.95,0.875,1.0,0.925,0.825,1.0

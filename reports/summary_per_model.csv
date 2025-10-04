@@ -1,0 +1,2 @@
+model,n,exact_acc,loose_acc,support@k,pct_supported,pct_contradicted,pct_unverifiable,mean_confidence,avg_gen_ms,avg_retrieval_ms,avg_verify_ms
+microsoft/Phi-3-mini-4k-instruct,300.0,0.79,0.86,0.42,47.7,31.3,21.0,0.658,0.0,0.0,0.0
