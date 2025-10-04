@@ -2,6 +2,8 @@
 
 Truth Layer is a reproducible evaluation pipeline for large language models (LLMs) that combines*retrieval, constrained generation, and NLI-based verification to create audit-ready truthfulness benchmarks. The goal is to expose systematic failure modes that are invisible to surface-level metrics (e.g., token overlap or BLEU) and make LLM evaluations more transparent, reproducible, and accountable.
 
+Paper: [_Evidence Grounded Evaluation: Toward Infrastructure for Truthful AI_](https://github.com/amshah1022/truth-layer/blob/3561c14f92800502a1d579e5ba2e7c037fac82c6/Evidence_Grounded_Evaluation.pdf)
+
 ---
 
 ## Features
@@ -20,5 +22,6 @@ Truth Layer is a reproducible evaluation pipeline for large language models (LLM
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
 pip install -r requirements.txt
+
 
 
