@@ -133,7 +133,7 @@ def retrieve_evidence(question: str, answer: str, k: int = 3) -> List[Dict]:
     return out
 
 # =========================
-# NLI verifier (batched)
+# NLI verifier 
 # =========================
 _nli = pipeline(
     "text-classification",

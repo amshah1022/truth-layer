@@ -14,7 +14,7 @@ def _auth_kwargs():
     import os
     tok = os.getenv("HUGGINGFACE_HUB_TOKEN")
     if tok:
-        return {"token": tok}  # ✅ Only token, no use_auth_token
+        return {"token": tok}  
     return {}
 
 
@@ -57,7 +57,7 @@ def _build_prompt(q: str) -> str:
     )
 
 def generate_answer(question: str, max_new_tokens: int = 16) -> str:
-    # Case 1: OpenAI models
+    # OpenAI models
     if MODEL_ID.startswith("gpt-"):
         if not openai.api_key:
             raise RuntimeError("OPENAI_API_KEY not set. Export it first.")
@@ -72,7 +72,7 @@ def generate_answer(question: str, max_new_tokens: int = 16) -> str:
         ans = ans.strip(" .,:;!?\"'()[]{}")
         return ans
 
-    # Case 2: Hugging Face models (default)
+    # Hugging Face models 
     gen = _load_hf(MODEL_ID)
     out = gen(
         _build_prompt(question),

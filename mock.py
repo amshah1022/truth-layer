@@ -1,8 +1,8 @@
-# mock.py
+#mock.py
 import random
 from typing import List, Dict
 
-# A tiny scriptable set so you can demo a clear lie -> fix
+# A tiny scriptable set so can demo a clear lie -> fix
 WRONG_BASELINES = {
     "Who wrote Pride and Prejudice?": "Pride and Prejudice was written by Charlotte Brontë.",
     "When was Cornell University founded?": "Cornell University was founded in 1965.",
