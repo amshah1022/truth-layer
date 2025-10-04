@@ -1,4 +1,3 @@
-# detector.py
 from __future__ import annotations
 from typing import List, Dict
 from functools import lru_cache

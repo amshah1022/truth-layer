@@ -1,4 +1,3 @@
-# eval.py
 import os, json, time, argparse, csv, re, hashlib
 from collections import Counter
 from pathlib import Path

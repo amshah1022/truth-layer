@@ -1,4 +1,3 @@
-# mitigator.py
 from typing import List, Dict
 import os
 from textwrap import shorten

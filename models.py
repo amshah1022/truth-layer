@@ -1,4 +1,3 @@
-# models.py
 import os
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 from huggingface_hub import HfFolder
