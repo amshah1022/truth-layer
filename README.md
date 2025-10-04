@@ -15,18 +15,10 @@ Truth Layer is a reproducible evaluation pipeline for large language models (LLM
 
 ---
 
-## Project Structure
-- `pipeline/` – core logic for retrieval, constrained generation, and verification  
-- `examples/` – sample evaluation runs on toy datasets  
-- `data/` – placeholder folder for input corpora and evaluation sets  
-- `results/` – caches, structured outputs, and analysis notebooks  
-- `scripts/` – helpers for running experiments end-to-end  
-
----
-
 ## Installation
 ```bash
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
 pip install -r requirements.txt
+
 
