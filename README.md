@@ -76,14 +76,14 @@ The result is an infrastructure-level approach to truthfulness that can be audit
 
 | Model A | Model B | Metric | n (shared) | A Wrong / B Right | A Right / B Wrong | p-value |
 |----------|----------|---------|-------------|--------------------|--------------------|----------|
-| Phi-3-mini-4k | Llama-3.1-8B | exact | 120 | 13 | 6 | 0.167 |
-| Phi-3-mini-4k | Llama-3.1-8B | soft | 120 | 42 | 5 |  &lt; 0.001 |
-| Phi-3-mini-4k | GPT-4o-mini | exact | 120 | 10 | 3 | 0.092 |
-| Phi-3-mini-4k | GPT-4o-mini | soft | 120 | 43 | 2 |  &lt; 0.001 |
-| Llama-3.1-8B | GPT-4o-mini | exact | 120 | 9 | 9 | 1.000 |
+| Phi-3-mini-4k | Llama-3.1-8B | exact | 120 | 13 | 6 | `0.167 `|
+| Phi-3-mini-4k | Llama-3.1-8B | soft | 120 | 42 | 5 |  `< 0.001` |
+| Phi-3-mini-4k | GPT-4o-mini | exact | 120 | 10 | 3 | `0.092 `|
+| Phi-3-mini-4k | GPT-4o-mini | soft | 120 | 43 | 2 |  `< 0.001` |
+| Llama-3.1-8B | GPT-4o-mini | exact | 120 | 9 | 9 | `1.000 `|
 
 **Interpretation:**  
-GPT-4o-mini and Llama-3.1-8B both significantly outperform Phi-3-mini-4k on soft agreement metrics (*p  &lt; 0.001*).  
+GPT-4o-mini and Llama-3.1-8B both significantly outperform Phi-3-mini-4k on soft agreement metrics (`p  < 0.001`).  
 Across domains, **literature** and **computer science** yield the highest grounding consistency, while **medicine** remains most challenging.
 
 ---
@@ -199,6 +199,7 @@ Contributions are welcome especially in retrieval optimization, NLI verification
 **Alina Miret Shah – Cornell University**  
  amshah@cornell.edu  
 [alina.miret](https://www.linkedin.com/in/alina-miret)
+
 
 
 
