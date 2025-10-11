@@ -83,7 +83,7 @@ The result is an infrastructure-level approach to truthfulness that can be audit
 | Llama-3.1-8B | GPT-4o-mini | exact | 120 | 9 | 9 | 1.000 |
 
 **Interpretation:**  
-GPT-4o-mini and Llama-3.1-8B both significantly outperform Phi-3-mini-4k on soft agreement metrics (*p < 0.001*).  
+GPT-4o-mini and Llama-3.1-8B both significantly outperform Phi-3-mini-4k on soft agreement metrics (*p  &lt; 0.001*).  
 Across domains, **literature** and **computer science** yield the highest grounding consistency, while **medicine** remains most challenging.
 
 ---
@@ -199,6 +199,7 @@ Contributions are welcome especially in retrieval optimization, NLI verification
 **Alina Miret Shah – Cornell University**  
  amshah@cornell.edu  
 [alina.miret](https://www.linkedin.com/in/alina-miret)
+
 
 
 
