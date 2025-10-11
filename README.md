@@ -1,5 +1,4 @@
 # Truth Layer: Evidence-Grounded Evaluation for LLMs
-> A reproducible pipeline for evidence-grounded truthfulness evaluation.
 **Truth Layer** is a reproducible evaluation pipeline for large language models (LLMs) that transforms truthfulness from a subjective judgment into a measurable property.  
 It integrates retrieval**, constrained generation, and NLI-based verification to create audit-ready evaluations that reveal when, how, and why models hallucinate.
 
@@ -200,3 +199,4 @@ Contributions are welcome especially in retrieval optimization, NLI verification
 **Alina Miret Shah – Cornell University**  
  amshah@cornell.edu  
 [alina.miret](https://www.linkedin.com/in/alina-miret)
+
