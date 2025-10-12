@@ -45,6 +45,7 @@ Evidence cache          CSV / JSON summaries
   ],
   "label": "Contradicted"
 }
+```
 
 ## Early Results (Prototype)
 
@@ -182,6 +183,7 @@ Contributions are welcome especially in retrieval optimization, NLI verification
 **Alina Miret Shah – Cornell University**  
  amshah@cornell.edu  
 [alina.miret](https://www.linkedin.com/in/alina-miret)
+
 
 
 
