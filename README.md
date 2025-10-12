@@ -59,19 +59,6 @@ Evidence cache          CSV / JSON summaries
 
 ---
 
-## Early Results (Prototype)
-
-| Model | Supported | Contradicted | Unverifiable | Exact | Loose | Soft | Recall |
-|--------|------------|---------------|---------------|--------|--------|--------|---------|
-| **GPT-4o-mini** | 111 | 7 | 2 | 0.85 | 0.91 | 0.93 | 0.93 |
-| **Llama-3.1-8B-Instruct** | 107 | 8 | 5 | 0.85 | 0.86 | 0.89 | 0.90 |
-| **Phi-3-mini-4k-Instruct** | 143 | 94 | 63 | 0.69 | 0.81 | 0.48 | 0.42 |
-
-*Evaluated on 120 claims for Phi-3, Llama-3.1, and GPT-4o. Confidence intervals represent 95% bootstrap estimates.*  
-*(Full paper forthcoming — Shah, 2025)*
-
----
-
 ### Per-Domain Breakdown (Phi-3-mini-4k-Instruct)
 
 | Domain | Exact | Loose | Soft | Recall |
@@ -216,6 +203,7 @@ Contributions are welcome especially in retrieval optimization, NLI verification
 **Alina Miret Shah – Cornell University**  
  amshah@cornell.edu  
 [alina.miret](https://www.linkedin.com/in/alina-miret)
+
 
 
 
