@@ -78,14 +78,13 @@ Evidence cache          CSV / JSON summaries
 
 ### Pairwise McNemar Tests
 
-| Model A | Model B | Metric | n (shared) | A Wrong / B Right | A Right / B Wrong | p-value |
-|----------|----------|---------|-------------|--------------------|--------------------|----------|
-| Phi-3-mini-4k | Llama-3.1-8B | exact | 120 | 13 | 6 | 0.167 |
-| Phi-3-mini-4k | Llama-3.1-8B | soft | 120 | 42 | 5 | < 0.001 |
-| Phi-3-mini-4k | GPT-4o-mini | exact | 120 | 10 | 3 | 0.092 |
-| Phi-3-mini-4k | GPT-4o-mini | soft | 120 | 43 | 2 | < 0.001 |
-| Llama-3.1-8B | GPT-4o-mini | exact | 120 | 9 | 9 | 1.000 |
-| Llama-3.1-8B | GPT-4o-mini | soft | 120 | 6 | 2 | 0.289 |
+model_A,model_B,metric,n_shared,A_wrong_B_right,A_right_B_wrong,p_value
+microsoft/Phi-3-mini-4k-instruct,meta-llama/Llama-3.1-8B-Instruct,exact,120,13,6,0.167068
+microsoft/Phi-3-mini-4k-instruct,meta-llama/Llama-3.1-8B-Instruct,soft,120,42,5,0.0
+microsoft/Phi-3-mini-4k-instruct,gpt-4o-mini,exact,120,10,3,0.092285
+microsoft/Phi-3-mini-4k-instruct,gpt-4o-mini,soft,120,43,2,0.0
+meta-llama/Llama-3.1-8B-Instruct,gpt-4o-mini,exact,120,9,9,1.0
+meta-llama/Llama-3.1-8B-Instruct,gpt-4o-mini,soft,120,6,2,0.289062
 
 
 **Interpretation:**  
@@ -214,6 +213,7 @@ Contributions are welcome especially in retrieval optimization, NLI verification
 **Alina Miret Shah – Cornell University**  
  amshah@cornell.edu  
 [alina.miret](https://www.linkedin.com/in/alina-miret)
+
 
 
 
