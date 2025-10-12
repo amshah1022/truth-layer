@@ -210,8 +210,10 @@ Contributions are welcome especially in retrieval optimization, NLI verification
 ## Contact
 
 **Alina Miret Shah – Cornell University**  
- amshah@cornell.edu  
+alina.shah1022@gmail.com
+
 [alina.miret](https://www.linkedin.com/in/alinamshah/)
+
 
 
 
