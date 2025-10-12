@@ -19,12 +19,13 @@ The result is an infrastructure-level approach to truthfulness that can be audit
 ```text
 ┌────────────┐      ┌────────────┐          ┌──────────────┐
 │ Retrieval  │───▶  │ Generation │    ───▶  │ Verification │
-│ (FAISS /   │      │ (LLM w/    │          | (NLI model   │
+│ (BM25 /   │      │ (LLM w/    │           | (NLI model   │
 │ Wikipedia) │      │constraints)│          │ or entailment│
 └────────────┘      └────────────┘          └──────────────┘
          │                   │
          ▼                   ▼
-   Evidence store       JSON audit logs
+     JSON cache     CSV / JSON audit logs 
+(evidence + claims)      
 ```
 
 **1) Retrieval** – Collect top-k context from trusted corpora (Wikipedia, PubMed, ArXiv, etc.)  
@@ -100,7 +101,8 @@ Truth Layer builds upon and extends recent progress in factuality evaluation:
 - **RARR: Retrieval-Augmented Response Rewriting** – Gao et al., 2023  
 - **FactScore** – Min et al., 2023  
 
-It operationalizes these ideas into a modular pipeline for AI Reliability Infrastructure, complementing related projects such as ProbeEng (interpretability) and *”OSCE Learning Analytics: Rubric-Guided Generation and Evaluation of LLM Feedback”*
+Truth Layer unifies these ideas into a practical, end-to-end framework for evaluating factual reliability.
+It complements related efforts like ProbeEng (model interpretability) and *”OSCE Learning Analytics: Rubric-Guided Generation and Evaluation of LLM Feedback”*
 (human-feedback calibration).
 
 **Paper:** *“Evidence-Grounded Evaluation: Toward Infrastructure for Truthful AI.”*  
@@ -154,23 +156,24 @@ runs/<timestamp>/   # JSON caches and retrieved evidence
 - **Transparent Benchmarks** – Enables longitudinal reliability tracking.  
 
 ---
-## 🧭 Roadmap
+
+
+## Roadmap
 
 **Phase 1 — Core Reliability Infrastructure (Q4 2025)**
-- [ ] Integrate **multi-document retrieval** and cross-corpus evidence fusion  
-- [ ] Add **per-claim verification** pipeline for finer-grained truth metrics  
-- [ ] Release **public evaluation scripts** for TruthfulQA, MedQA, and custom datasets  
+- [ ] Extend retrieval to multiple sources (Wikipedia, PubMed, ArXiv)  
+- [ ] Add **per-claim verification** for finer-grained truth metrics  
+- [ ] Release **public evaluation scripts** for multi-domain factual QA datasets  
 
 **Phase 2 — Calibration & Comparative Analysis (Q1 2026)**
-- [ ] Implement **verifier ensembles** for uncertainty calibration  
-- [ ] Introduce **confidence-weighted scoring** and reliability curves  
-- [ ] Expand **model comparison suite** (pairwise McNemar, bootstrap CIs)  
+- [ ] Prototype **verifier ensembles** and uncertainty scoring  
+- [ ] Introduce **confidence-weighted metrics** and reliability curves  
+- [ ] Expand **model comparison suite** (McNemar tests, bootstrap CIs)  
 
 **Phase 3 — Transparency & Collaboration (Q2 2026)**
-- [ ] Launch an **open benchmark leaderboard** for community submissions  
-- [ ] Deploy **interactive web dashboard** for audit visualization  
-- [ ] Publish **evaluation standard & dataset schema** for reproducible truthfulness research  
-
+- [ ] Define an **open evaluation format** to enable community submissions  
+- [ ] Deploy an **interactive Streamlit dashboard** for audit visualization  
+- [ ] Draft and publish an **evaluation schema** for reproducible truthfulness research  
 
 ---
 
@@ -199,6 +202,7 @@ Contributions are welcome especially in retrieval optimization, NLI verification
 **Alina Miret Shah – Cornell University**  
  amshah@cornell.edu  
 [alina.miret](https://www.linkedin.com/in/alina-miret)
+
 
 
 
