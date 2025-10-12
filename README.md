@@ -85,6 +85,8 @@ Evidence cache          CSV / JSON summaries
 | Phi-3-mini-4k | GPT-4o-mini | exact | 120 | 10 | 3 | 0.092 |
 | Phi-3-mini-4k | GPT-4o-mini | soft | 120 | 43 | 2 | < 0.001 |
 | Llama-3.1-8B | GPT-4o-mini | exact | 120 | 9 | 9 | 1.000 |
+| Llama-3.1-8B | GPT-4o-mini | soft | 120 | 6 | 2 | 0.289 |
+
 
 **Interpretation:**  
 GPT-4o-mini and Llama-3.1-8B both significantly outperform Phi-3-mini-4k on soft agreement metrics (*p < 0.001*).  
@@ -212,6 +214,7 @@ Contributions are welcome especially in retrieval optimization, NLI verification
 **Alina Miret Shah – Cornell University**  
  amshah@cornell.edu  
 [alina.miret](https://www.linkedin.com/in/alina-miret)
+
 
 
 
