@@ -22,7 +22,7 @@ The result is an infrastructure-level approach to truthfulness that can be audit
 ```text
 ┌────────────┐      ┌────────────┐          ┌──────────────┐
 │ Retrieval  │───▶  │ Generation │    ───▶  │ Verification │
-│ (BM25 /   │       │ (LLM w/    │          | (NLI model   │
+│ (BM25 /    │      │ (LLM w/    │          | (NLI model   │
 │ Wikipedia) │      │constraints)│          │ or entailment│
 └────────────┘      └────────────┘          └──────────────┘
          │                   │
@@ -212,6 +212,7 @@ Contributions are welcome especially in retrieval optimization, NLI verification
 **Alina Miret Shah – Cornell University**  
  amshah@cornell.edu  
 [alina.miret](https://www.linkedin.com/in/alina-miret)
+
 
 
 
