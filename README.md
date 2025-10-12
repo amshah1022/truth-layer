@@ -163,18 +163,18 @@ runs/<timestamp>/   # JSON caches and retrieved evidence
 
 **Phase 1 — Core Reliability Infrastructure (Q4 2025)**
 - [ ] Extend retrieval to multiple sources (Wikipedia, PubMed, ArXiv)  
-- [ ] Add **per-claim verification** for finer-grained truth metrics  
-- [ ] Release **public evaluation scripts** for multi-domain factual QA datasets  
+- [ ] Add per-claim verification for finer-grained truth metrics  
+- [ ] Release public evaluation scripts for multi-domain factual QA datasets  
 
 **Phase 2 — Calibration & Comparative Analysis (Q1 2026)**
-- [ ] Prototype **verifier ensembles** and uncertainty scoring  
-- [ ] Introduce **confidence-weighted metrics** and reliability curves  
-- [ ] Expand **model comparison suite** (McNemar tests, bootstrap CIs)  
+- [ ] Prototype verifier ensembles and uncertainty scoring  
+- [ ] Introduce confidence-weighted metrics and reliability curves  
+- [ ] Expand model comparison suite (McNemar tests, bootstrap CIs)  
 
 **Phase 3 — Transparency & Collaboration (Q2 2026)**
-- [ ] Define an **open evaluation format** to enable community submissions  
-- [ ] Deploy an **interactive Streamlit dashboard** for audit visualization  
-- [ ] Draft and publish an **evaluation schema** for reproducible truthfulness research  
+- [ ] Define an open evaluation format to enable community submissions  
+- [ ] Deploy an interactive Streamlit dashboard for audit visualization  
+- [ ] Draft and publish an evaluation schema for reproducible truthfulness research  
 
 ---
 
@@ -203,6 +203,7 @@ Contributions are welcome especially in retrieval optimization, NLI verification
 **Alina Miret Shah – Cornell University**  
  amshah@cornell.edu  
 [alina.miret](https://www.linkedin.com/in/alina-miret)
+
 
 
 
