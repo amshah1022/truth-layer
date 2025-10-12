@@ -72,7 +72,7 @@ Evidence cache          CSV / JSON summaries
 | Medicine | 0.50 | 0.85 | 0.45 | 0.40 |
 | Computer Science | 0.75 | 0.90 | 0.18 | 0.18 |
 
-*Each domain evaluated on 120 items (n = 200 total).*
+*Each domain evaluated on 120 items.*
 
 ---
 
@@ -211,6 +211,7 @@ Contributions are welcome especially in retrieval optimization, NLI verification
 **Alina Miret Shah – Cornell University**  
  amshah@cornell.edu  
 [alina.miret](https://www.linkedin.com/in/alina-miret)
+
 
 
 
