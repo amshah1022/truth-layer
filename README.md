@@ -124,7 +124,8 @@ It complements related efforts like ProbeEng (model interpretability) and *”OS
 ```bash
 git clone https://github.com/amshah1022/truth-layer.git
 cd truth-layer
-python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
+python -m venv .venv
+source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
@@ -211,6 +212,7 @@ Contributions are welcome especially in retrieval optimization, NLI verification
 **Alina Miret Shah – Cornell University**  
  amshah@cornell.edu  
 [alina.miret](https://www.linkedin.com/in/alina-miret)
+
 
 
 
