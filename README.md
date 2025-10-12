@@ -19,13 +19,13 @@ The result is an infrastructure-level approach to truthfulness that can be audit
 ```text
 ┌────────────┐      ┌────────────┐          ┌──────────────┐
 │ Retrieval  │───▶  │ Generation │    ───▶  │ Verification │
-│ (BM25 /   │      │ (LLM w/    │           | (NLI model   │
+│ (BM25 /   │       │ (LLM w/    │           | (NLI model   │
 │ Wikipedia) │      │constraints)│          │ or entailment│
 └────────────┘      └────────────┘          └──────────────┘
          │                   │
          ▼                   ▼
-     JSON cache     CSV / JSON audit logs 
-(evidence + claims)      
+Evidence cache          CSV / JSON summaries
+(retrieved passages)   (per claim & per model results) 
 ```
 
 **1) Retrieval** – Collect top-k context from trusted corpora (Wikipedia, PubMed, ArXiv, etc.)  
@@ -59,7 +59,20 @@ The result is an infrastructure-level approach to truthfulness that can be audit
 
 ---
 
-###  Per-Domain Breakdown (Phi-3-mini-4k-Instruct)
+## Early Results (Prototype)
+
+| Model | Supported | Contradicted | Unverifiable | Exact | Loose | Soft | Recall |
+|--------|------------|---------------|---------------|--------|--------|--------|---------|
+| **GPT-4o-mini** | 111 | 7 | 2 | 0.85 | 0.91 | 0.93 | 0.93 |
+| **Llama-3.1-8B-Instruct** | 107 | 8 | 5 | 0.85 | 0.86 | 0.89 | 0.90 |
+| **Phi-3-mini-4k-Instruct** | 143 | 94 | 63 | 0.69 | 0.81 | 0.48 | 0.42 |
+
+*Evaluated on 120 claims for Phi-3, Llama-3.1, and GPT-4o. Confidence intervals represent 95% bootstrap estimates.*  
+*(Full paper forthcoming — Shah, 2025)*
+
+---
+
+### Per-Domain Breakdown (Phi-3-mini-4k-Instruct)
 
 | Domain | Exact | Loose | Soft | Recall |
 |---------|--------|--------|--------|---------|
@@ -77,14 +90,14 @@ The result is an infrastructure-level approach to truthfulness that can be audit
 
 | Model A | Model B | Metric | n (shared) | A Wrong / B Right | A Right / B Wrong | p-value |
 |----------|----------|---------|-------------|--------------------|--------------------|----------|
-| Phi-3-mini-4k | Llama-3.1-8B | exact | 120 | 13 | 6 | `0.167 `|
-| Phi-3-mini-4k | Llama-3.1-8B | soft | 120 | 42 | 5 |  `< 0.001` |
-| Phi-3-mini-4k | GPT-4o-mini | exact | 120 | 10 | 3 | `0.092 `|
-| Phi-3-mini-4k | GPT-4o-mini | soft | 120 | 43 | 2 |  `< 0.001` |
-| Llama-3.1-8B | GPT-4o-mini | exact | 120 | 9 | 9 | `1.000 `|
+| Phi-3-mini-4k | Llama-3.1-8B | exact | 120 | 13 | 6 | 0.167 |
+| Phi-3-mini-4k | Llama-3.1-8B | soft | 120 | 42 | 5 | < 0.001 |
+| Phi-3-mini-4k | GPT-4o-mini | exact | 120 | 10 | 3 | 0.092 |
+| Phi-3-mini-4k | GPT-4o-mini | soft | 120 | 43 | 2 | < 0.001 |
+| Llama-3.1-8B | GPT-4o-mini | exact | 120 | 9 | 9 | 1.000 |
 
 **Interpretation:**  
-GPT-4o-mini and Llama-3.1-8B both significantly outperform Phi-3-mini-4k on soft agreement metrics (`p  < 0.001`).  
+GPT-4o-mini and Llama-3.1-8B both significantly outperform Phi-3-mini-4k on soft agreement metrics (*p < 0.001*).  
 Across domains, **literature** and **computer science** yield the highest grounding consistency, while **medicine** remains most challenging.
 
 ---
@@ -92,6 +105,7 @@ Across domains, **literature** and **computer science** yield the highest ground
 *Full raw results available in [`runs/`](runs/):*  
 [`per_model_summary.csv`](runs/per_model_summary.csv) · [`per_domain_summary.csv`](runs/per_domain_summary.csv) · [`pairwise_mcnemar.csv`](runs/pairwise_mcnemar.csv)
 
+---
 
 ##  Research Context
 
@@ -202,6 +216,7 @@ Contributions are welcome especially in retrieval optimization, NLI verification
 **Alina Miret Shah – Cornell University**  
  amshah@cornell.edu  
 [alina.miret](https://www.linkedin.com/in/alina-miret)
+
 
 
 
