@@ -47,25 +47,53 @@ Evidence cache          CSV / JSON summaries
 }
 ```
 
+---
+
 ## Early Results (Prototype)
 
+| Model | Supported | Contradicted | Unverifiable | Exact | Loose | Soft | Recall |
+|--------|------------|---------------|---------------|--------|--------|--------|---------|
+| **GPT-4o-mini** | 111 | 7 | 2 | 0.85 | 0.91 | 0.93 | 0.93 |
+| **Llama-3.1-8B-Instruct** | 107 | 8 | 5 | 0.85 | 0.86 | 0.89 | 0.90 |
+| **Phi-3-mini-4k-Instruct** | 143 | 94 | 63 | 0.69 | 0.81 | 0.48 | 0.42 |
 
 *Evaluated on 120 claims for Phi-3, Llama-3.1, and GPT-4o. Confidence intervals represent 95% bootstrap estimates.*  
+*(Full paper forthcoming — Shah, 2025)*
+
 ---
 
 ### Per-Domain Breakdown (Phi-3-mini-4k-Instruct)
 
+| Domain | Exact | Loose | Soft | Recall |
+|---------|--------|--------|--------|---------|
+| History | 0.78 | 0.78 | 0.43 | 0.40 |
+| Literature | 0.90 | 0.90 | 0.88 | 0.88 |
+| Science | 0.70 | 0.88 | 0.45 | 0.43 |
+| Medicine | 0.50 | 0.85 | 0.45 | 0.40 |
+| Computer Science | 0.75 | 0.90 | 0.18 | 0.18 |
 
-
-Each domain evaluated on 120 items (n = 200 total).
+*Each domain evaluated on 120 items (n = 200 total).*
 
 ---
 
 ### Pairwise McNemar Tests
 
+| Model A | Model B | Metric | n (shared) | A Wrong / B Right | A Right / B Wrong | p-value |
+|----------|----------|---------|-------------|--------------------|--------------------|----------|
+| Phi-3-mini-4k | Llama-3.1-8B | exact | 120 | 13 | 6 | 0.167 |
+| Phi-3-mini-4k | Llama-3.1-8B | soft | 120 | 42 | 5 | < 0.001 |
+| Phi-3-mini-4k | GPT-4o-mini | exact | 120 | 10 | 3 | 0.092 |
+| Phi-3-mini-4k | GPT-4o-mini | soft | 120 | 43 | 2 | < 0.001 |
+| Llama-3.1-8B | GPT-4o-mini | exact | 120 | 9 | 9 | 1.000 |
 
+**Interpretation:**  
 GPT-4o-mini and Llama-3.1-8B both significantly outperform Phi-3-mini-4k on soft agreement metrics (*p < 0.001*).  
 Across domains, **literature** and **computer science** yield the highest grounding consistency, while **medicine** remains most challenging.
+
+---
+
+*Full raw results available in [`runs/`](runs/):*  
+[`per_model_summary.csv`](runs/per_model_summary.csv) · [`per_domain_summary.csv`](runs/per_domain_summary.csv) · [`pairwise_mcnemar.csv`](runs/pairwise_mcnemar.csv)
 
 ---
 
@@ -183,6 +211,7 @@ Contributions are welcome especially in retrieval optimization, NLI verification
 **Alina Miret Shah – Cornell University**  
  amshah@cornell.edu  
 [alina.miret](https://www.linkedin.com/in/alina-miret)
+
 
 
 
