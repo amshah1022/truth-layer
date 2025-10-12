@@ -19,7 +19,7 @@ The result is an infrastructure-level approach to truthfulness that can be audit
 ```text
 ┌────────────┐      ┌────────────┐          ┌──────────────┐
 │ Retrieval  │───▶  │ Generation │    ───▶  │ Verification │
-│ (BM25 /   │       │ (LLM w/    │           | (NLI model   │
+│ (BM25 /   │       │ (LLM w/    │          | (NLI model   │
 │ Wikipedia) │      │constraints)│          │ or entailment│
 └────────────┘      └────────────┘          └──────────────┘
          │                   │
@@ -50,12 +50,11 @@ Evidence cache          CSV / JSON summaries
 ---
 
 ## Early Results (Prototype)
-
-| Model | Supported | Contradicted | Unverifiable | Exact | Loose | Soft | Recall |
-|--------|------------|---------------|---------------|--------|--------|--------|---------|
-| **GPT-4o-mini** | 111 | 7 | 2 | 0.85 | 0.91 | 0.93 | 0.93 |
-| **Llama-3.1-8B-Instruct** | 107 | 8 | 5 | 0.85 | 0.86 | 0.89 | 0.90 |
-| **Phi-3-mini-4k-Instruct** | 143 | 94 | 63 | 0.69 | 0.81 | 0.48 | 0.42 |
+| Model                            | n   | Exact | Loose | Soft  | Recall | Supported | Contradicted | Unverifiable |
+| -------------------------------- | --- | ----- | ----- | ----- | ------ | --------- | ------------ | ------------ |
+| microsoft/Phi-3-mini-4k-instruct | 300 | 0.693 | 0.807 | 0.477 | 0.420  | 143       | 94           | 63           |
+| meta-llama/Llama-3.1-8B-Instruct | 120 | 0.850 | 0.858 | 0.892 | 0.900  | 107       | 8            | 5            |
+| gpt-4o-mini                      | 120 | 0.850 | 0.908 | 0.925 | 0.933  | 111       | 7            | 2            |
 
 *Evaluated on 120 claims for Phi-3, Llama-3.1, and GPT-4o. Confidence intervals represent 95% bootstrap estimates.*  
 *(Full paper forthcoming — Shah, 2025)*
@@ -64,46 +63,34 @@ Evidence cache          CSV / JSON summaries
 
 ### Per-Domain Breakdown (Phi-3-mini-4k-Instruct)
 
-model,domain,n,exact_mean,exact_lo,exact_hi,loose_mean,loose_lo,loose_hi,soft_mean,soft_lo,soft_hi,recall_mean,recall_lo,recall_hi
-microsoft/Phi-3-mini-4k-instruct,history,40,0.775,0.65,0.9,0.775,0.65,0.9,0.425,0.275,0.575,0.4,0.25,0.55
-microsoft/Phi-3-mini-4k-instruct,literature,40,0.9,0.8,0.975,0.9,0.8,0.975,0.875,0.775,0.975,0.875,0.775,0.975
-microsoft/Phi-3-mini-4k-instruct,science,40,0.7,0.55,0.825,0.875,0.75,0.975,0.45,0.3,0.6,0.425,0.275,0.575
-microsoft/Phi-3-mini-4k-instruct,medicine,40,0.5,0.35,0.65,0.85,0.725,0.95,0.45,0.3,0.6,0.4,0.25,0.55
-microsoft/Phi-3-mini-4k-instruct,cs,40,0.75,0.6,0.875,0.9,0.8,0.975,0.175,0.075,0.3,0.175,0.075,0.3
-microsoft/Phi-3-mini-4k-instruct,civics,40,0.425,0.275,0.575,0.475,0.325,0.625,0.4,0.25,0.55,0.225,0.1,0.35
-microsoft/Phi-3-mini-4k-instruct,ambiguous,20,0.85,0.7,1.0,0.95,0.85,1.0,0.5,0.3,0.7,0.4,0.2,0.6
-microsoft/Phi-3-mini-4k-instruct,multihop,20,0.7,0.5,0.9,0.75,0.55,0.9,0.6,0.4,0.8,0.45,0.25,0.65
-microsoft/Phi-3-mini-4k-instruct,confusion,20,0.75,0.55,0.9,0.85,0.7,1.0,0.5,0.3,0.7,0.45,0.25,0.65
-meta-llama/Llama-3.1-8B-Instruct,history,40,0.85,0.725,0.95,0.85,0.725,0.95,0.9,0.8,0.975,0.9,0.8,0.975
-meta-llama/Llama-3.1-8B-Instruct,literature,40,0.85,0.725,0.95,0.85,0.725,0.95,0.875,0.775,0.975,0.9,0.8,0.975
-meta-llama/Llama-3.1-8B-Instruct,science,40,0.85,0.725,0.95,0.875,0.775,0.975,0.9,0.8,0.975,0.9,0.8,0.975
-gpt-4o-mini,history,40,0.9,0.8,0.975,0.9,0.8,0.975,0.875,0.775,0.975,0.9,0.8,0.975
-gpt-4o-mini,literature,40,0.925,0.85,1.0,0.925,0.85,1.0,0.95,0.875,1.0,0.975,0.925,1.0
-gpt-4o-mini,science,40,0.725,0.575,0.85,0.9,0.8,0.975,0.95,0.875,1.0,0.925,0.825,1.0
+| Domain           | Exact | Loose | Soft  | Recall |
+| ---------------- | ----- | ----- | ----- | ------ |
+| History          | 0.775 | 0.775 | 0.425 | 0.400  |
+| Literature       | 0.900 | 0.900 | 0.875 | 0.875  |
+| Science          | 0.700 | 0.875 | 0.450 | 0.425  |
+| Medicine         | 0.500 | 0.850 | 0.450 | 0.400  |
+| Computer Science | 0.750 | 0.900 | 0.175 | 0.175  |
+| Civics           | 0.425 | 0.475 | 0.400 | 0.225  |
+| Ambiguous        | 0.850 | 0.950 | 0.500 | 0.400  |
+| Multihop         | 0.700 | 0.750 | 0.600 | 0.450  |
+| Confusion        | 0.750 | 0.850 | 0.500 | 0.450  |
 
-*Each domain evaluated on 120 items.*
+*Every domain evaluated on 40 items except for ambiguous, multihop, and confusion (20 each).*
 
 ---
 
 ### Pairwise McNemar Tests
 
-model_A,model_B,metric,n_shared,A_wrong_B_right,A_right_B_wrong,p_value
-microsoft/Phi-3-mini-4k-instruct,meta-llama/Llama-3.1-8B-Instruct,exact,120,13,6,0.167068
-microsoft/Phi-3-mini-4k-instruct,meta-llama/Llama-3.1-8B-Instruct,soft,120,42,5,0.0
-microsoft/Phi-3-mini-4k-instruct,gpt-4o-mini,exact,120,10,3,0.092285
-microsoft/Phi-3-mini-4k-instruct,gpt-4o-mini,soft,120,43,2,0.0
-meta-llama/Llama-3.1-8B-Instruct,gpt-4o-mini,exact,120,9,9,1.0
-meta-llama/Llama-3.1-8B-Instruct,gpt-4o-mini,soft,120,6,2,0.289062
+Pairwise McNemar Tests
+Model A	Model B	Metric	n (shared)	A Wrong / B Right	A Right / B Wrong	p-value
+Phi-3-mini-4k	Llama-3.1-8B	exact	120	13	6	0.167
+Phi-3-mini-4k	Llama-3.1-8B	soft	120	42	5	<0.001
+Phi-3-mini-4k	GPT-4o-mini	exact	120	10	3	0.092
+Phi-3-mini-4k	GPT-4o-mini	soft	120	43	2	<0.001
+Llama-3.1-8B	GPT-4o-mini	exact	120	9	9	1.000
+Llama-3.1-8B	GPT-4o-mini	soft	120	6	2	0.289
 
-
-**Interpretation:**  
 GPT-4o-mini and Llama-3.1-8B both significantly outperform Phi-3-mini-4k on soft agreement metrics (*p < 0.001*).  
-Across domains, **literature** and **computer science** yield the highest grounding consistency, while **medicine** remains most challenging.
-
----
-
-*Full raw results available in [`runs/`](runs/):*  
-[`per_model_summary.csv`](runs/per_model_summary.csv) · [`per_domain_summary.csv`](runs/per_domain_summary.csv) · [`pairwise_mcnemar.csv`](runs/pairwise_mcnemar.csv)
 
 ---
 
@@ -222,6 +209,7 @@ Contributions are welcome especially in retrieval optimization, NLI verification
 **Alina Miret Shah – Cornell University**  
  amshah@cornell.edu  
 [alina.miret](https://www.linkedin.com/in/alina-miret)
+
 
 
 
