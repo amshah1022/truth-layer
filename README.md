@@ -3,7 +3,7 @@ _Truth Layer_ is a reproducible evaluation pipeline for large language models (L
 It integrates retrieval, constrained generation, and NLI-based verification to create audit-ready evaluations that reveal when, how, and why models hallucinate.
 
 Paper: [_Evidence-Grounded Evaluation: Toward
-Infrastructure for Truthful AI_](https://github.com/amshah1022/truth-layer/blob/f47b0d6f5329db6b7064d95844d13b6d8ddd287c/Evidence_Grounded_Evaluation.pdf)
+Infrastructure for Truthful AI_](https://github.com/amshah1022/truth-layer/blob/16ef276549d3e1835d1e1d61beccc5db6f545a7e/Evidence_Grounded_Evaluation__Toward_Instrastructure_for_Truthful_AI.pdf)
 
 ---
 
@@ -212,6 +212,7 @@ Contributions are welcome especially in retrieval optimization, NLI verification
 **Alina Miret Shah – Cornell University**  
 alina.shah1022@gmail.com
 [alina.miret](https://www.linkedin.com/in/alinamshah/)
+
 
 
 
