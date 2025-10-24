@@ -141,6 +141,29 @@ HF_TOKEN=...
 
 ---
 
+### Reproducibility & Automation
+
+Truth Layer is fully containerized and includes continuous integration for smoke benchmarks.
+
+**Docker (for reproducible runs)**
+```bash
+# Build and run in one line
+docker build -t truth-layer .
+docker run --rm -e MODEL_ID="meta-llama/Meta-Llama-3.1-8B-Instruct" truth-layer
+```
+
+**GitHub Actions CI**
+
+- Runs a small benchmark on every push to main
+
+- Saves metrics and JSONL outputs as artifacts under runs/
+
+- Verifies reproducibility of results
+
+CI workflow: .github/workflows/ci.yml
+
+Container spec: Dockerfile
+
 ## Run the Streamlit App
 
 ```bash
@@ -212,6 +235,7 @@ Contributions are welcome especially in retrieval optimization, NLI verification
 **Alina Miret Shah – Cornell University**  
 alina.shah1022@gmail.com
 [alina.miret](https://www.linkedin.com/in/alinamshah/)
+
 
 
 
